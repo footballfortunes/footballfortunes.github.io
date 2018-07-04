@@ -31,20 +31,18 @@ h1 i.fa.fa-futbol-o{color:#ffffff;}
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{color:#fff;background-color:#33cc99;}
 .navbar-nav > li{margin:0px;}
 .wthree_banner_info{width:60%;margin:0em auto 0;text-align:center;padding-top:13em;}
-.wthree_banner_info h2{font-size:3em;color:#fff;font-weight:600;text-transform:uppercase;line-height:1.5em;margin-bottom:2em;}
+.wthree_banner_info h2{font-size:3em;color:lightgreen;font-weight:600;text-transform:uppercase;line-height:1.5em;margin-bottom:2em;}
 .wthree_banner_info h2 span{display:block;font-size:.4em;line-height:1.4em;width:15%;margin:0 auto;background:#eb5424;}
 ul.agile_forms{float:left;}
 .w3layouts-banner-top{background:url(../images/striker-banner.gif) no-repeat 0px 0px;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;-moz-background-size:cover;min-height:700px;}
-.w3layouts-banner-top1{background:url(../images/board-banner.jpg) no-repeat 0px 0px;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;-moz-background-size:cover;min-height:700px;}
-.w3layouts-banner-top2{background:url(../images/player-cards-banner.jpg) no-repeat 0px 0px;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;-moz-background-size:cover;min-height:700px;}
-.agileits-banner-info h3{color:#fff;font-size:5.5em;margin:0.3em 0 0.2em 0;letter-spacing:2px;text-transform:uppercase;letter-spacing:3px;font-weight:800;text-align:center;color:#fff;text-align:center;position:relative;display:inline-block;border-top:8px solid #fff;padding:5px 10px 0px 10px;text-shadow:1px 1px 2px rgb(12, 12, 12);-webkit-text-shadow:1px 1px 2px rgb(12, 12, 12);-o-text-shadow:1px 1px 2px rgb(12, 12, 12);-moz-text-shadow:1px 1px 2px rgb(12, 12, 12);}
+.w3layouts-banner-top1{background:url(../images/board-banner.png) no-repeat 0px 0px;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;-moz-background-size:cover;min-height:700px;}
+.w3layouts-banner-top2{background:url(../images/player-cards-banner.png) no-repeat 0px 0px;background-size:cover;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;-moz-background-size:cover;min-height:700px;}
+.agileits-banner-info h3{color:#000;font-size:5.5em;margin:0.3em 0 0.2em 0;letter-spacing:2px;text-transform:uppercase;letter-spacing:3px;font-weight:800;text-align:center;color:antiquewhite;text-align:center;position:relative;display:inline-block;border-top:8px solid #fff;padding:5px 10px 0px 10px;text-shadow:1px 1px 2px rgb(12, 12, 12);-webkit-text-shadow:1px 1px 2px rgb(12, 12, 12);-o-text-shadow:1px 1px 2px rgb(12, 12, 12);-moz-text-shadow:1px 1px 2px rgb(12, 12, 12);}
 .agileits-banner-info h3:before{position:absolute;content:'';left:-8px;top:-8px;width:8px;bottom:12px;background:#fff;}
 .agileits-banner-info h3:after{position:absolute;content:'';right:-8px;top:-8px;width:8px;bottom:12px;background:#fff;}
-.agileits-banner-info p:before{position:absolute;content:'';left:267px;height:8px;bottom:12px;width:11%;background:#fff;}
-.agileits-banner-info p:after{position:absolute;content:'';right:282px;height:8px;bottom:12px;width:11%;background:#fff;}
 .agileits-banner-info h3 span{background:#2529d8;padding:0 15px;}
 .agileits-banner-info{text-align:center;padding:18em 0 0em;position:relative;}
-.agileits-banner-info p{color:#e2dfdf;font-size:1.1em;line-height:1.9em;letter-spacing:9px;font-weight:600;text-align:center;}
+.agileits-banner-info p{color:antiquewhite;font-size:2.1em;line-height:1.9em;letter-spacing:9px;font-weight:600;text-align:center;}
 .agileits_w3layouts_more{position:relative;}
 .agileits_w3layouts_more a{font-size:17px;color:#fff;text-decoration:none;text-transform:uppercase;letter-spacing:4px;position:relative;}
 .agileits-banner-info span{background:#ef5734;padding:0.5em 2em;color:#fff;font-size:1.1em;padding:5px 2em;text-transform:uppercase;letter-spacing:2px;}
@@ -203,7 +201,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter{margin-right:1em;}
 #toTop{display:none;text-decoration:none;position:fixed;bottom:20px;right:2%;overflow:hidden;z-index:999;width:32px;height:32px;border:none;text-indent:100%;background:url(../images/arrow-top.png) no-repeat 0px 0px;}
 #toTopHover{width:32px;height:32px;display:block;overflow:hidden;float:right;opacity:0;-moz-opacity:0;filter:alpha(opacity=0);}
 @media(max-width:1440px){.banner-bottom{left:8%;}
-.agileits-banner-info{padding:14em 0 0em;}
+.agileits-banner-info{padding:30em 0 0em;}
 .w3-border-bottom h3:before{left:21%;}
 .w3-border-bottom h3:after{right:21%;}
 }
