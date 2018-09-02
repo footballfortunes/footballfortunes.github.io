@@ -149,7 +149,7 @@
 		</div>
 		<div class="col-md-3 w3layouts_stats_left w3_counter_grid1">
 		   <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-			<p class="counter">2900</p>
+			<p class="counter">3500</p>
 			<h3>Facebook Fans</h3>
 		</div>
 		<div class="col-md-3 w3layouts_stats_left w3_counter_grid2">
@@ -629,23 +629,30 @@
 				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdsRaZEgsduu-3U-iT-dgNXXISbjPGqBAKS-WLRhirT8lwkyg/viewform?embedded=true" width="500" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 				<!-- Google Form for Mailing List Ends-->
 			</div>
+			<!-- Blog Posts Feed -->
 			<div class="clearfix"></div>
 		</div>
 		<div class="col-md-4 w3-contact-bottom-right">
 			<h3>Read all about the Brian Clough's Football Fortunes remake on our blog</h3>
 			<p><br/>
-			<style>
-		     /* Remove Feedburner logo by shinemat.com */
+				<div id="fm-medium-embed"></div>
 
-		     div  #creditfooter{
-		     display: none;
-		     }
-		     </style>
-				<script src="http://feeds.feedburner.com/FootballFortunes-Medium?format=sigpro" type="text/javascript" ></script><noscript><p>Subscribe to RSS headline updates from: <a href="http://feeds.feedburner.com/FootballFortunes-Medium"></a></noscript></p>
-
+				<script src="//data.feedmirror.com/embed.js"></script>
+				<script>
+				  var fmSettings = {
+				    feedURL: 'https://data.feedmirror.com/-LLOd6XDepSCD7g6ChA0.json',
+				    integration: 'medium-embed',
+				    linkOutText: 'Read more',
+				    linkToMediumProfileText: 'Subscribe on Medium',
+				    postsCount: 3,
+				    element: 'fm-medium-embed'
+				  };
+				  feedmirror.initialize(fmSettings);
+				</script>
 
    </div>
   </div><!-- End Box -->
+	<!-- Blog Posts Feed Ends -->
 
 </div><!-- End Main Container -->
 		</div>
