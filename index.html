@@ -59,6 +59,37 @@
 </head>
 
 <body>
+
+<!-- Facebook Messenger On Website Code -->
+
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v3.3'
+    });
+  };
+
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="857596470966390"
+  theme_color="#fa3c4c"
+  logged_in_greeting="Hi! Welcome to Football Fortunes. What can we do for you today?"
+  logged_out_greeting="Hi! Welcome to Football Fortunes. What can we do for you today?">
+</div>
+
+<!-- Facebook Messenger Code Ends -->
+
 <!-- banner -->
 <div class="main_section_agile">
 
@@ -920,37 +951,6 @@ pageTracker._trackPageview();
 </script>
 
 <!-- Google Analytics Code Ends -->
-
-<!-- Freshchat Code -->
-
-<script>
-  window.fcWidget.init({
-    token: "e727233f-386a-422a-b5bf-50e62c6532cf",
-    host: "https://wchat.freshchat.com"
-  });
-</script>
-
-<!-- Freshchat Code Ends -->
-
-<script>
-
-  // Identify Freshchat Users
-
-  // To set unique user id in your system when it is available
-  window.fcWidget.setExternalId("john.doe1987");
-
-  // To set user name
-  window.fcWidget.user.setFirstName("John");
-
-  // To set user email
-  window.fcWidget.user.setEmail("john.doe@gmail.com");
-
-  // To set user properties
-  window.fcWidget.user.setProperties({
-    plan: "Estate",                 // meta property 1
-    status: "Active"                // meta property 2
-  });
-</script>
 
 </body>
 </html>
