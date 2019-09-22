@@ -50,6 +50,16 @@
 
 <!-- Mailchimp Google Retargeting Code Ends -->
 
+<!-- Snipcart Code-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="YOUR_API_KEY" id="snipcart"></script>
+
+<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
+
+<!-- Snipcart Code Ends -->
+
 </head>
 
 <body>
@@ -121,54 +131,20 @@
 
 						<h2 align ="center"><b>Soon Available To Pre-Order Directly For Only £39.99</b></h2>
 						</p>
-
+							<!-- Products for Snipcart -->
+							<button
+							    class="snipcart-add-item"
+							    data-item-id="1"
+							    data-item-name="game"
+							    data-item-price="39.99"
+									data-item-image="https://footballffortunes.co.uk/images/ff-box-art-3d.jpg"
+							    data-item-weight="20"
+							    data-item-url="/"
+							    data-item-description="The football management game you play with friends and family is back! Football Fortunes Board and Computer Game allows up to six players to battle each other in the league, cups and European competition. Manage your club to success or failure with all of the thrills and spills of football management.">
+							        Buy it Now
+							</button>
+							<!-- Products for Snipcart Ends -->
 						<p align="center"> <img src="images/ff-box-art-3d.jpg" class="img-responsive" /></p>
-
-						<!-- Stripe Football Fortunes Buy Button -->
-
-						<!-- Load Stripe.js on your website. -->
-						<!-- <script src="https://js.stripe.com/v3"></script>
-<p align="center">
-						<button
-						  style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em"
-						  id="checkout-button-sku_FoElzUnsErtmIB"
-						  role="link"
-						>
-						  Pre Order The Game Soon!
-						</button>
-
-						<div id="error-message"></div>
-
-						<script>
-						  var stripe = Stripe('pk_live_akpiGSZkx1M7KmPMSoPIj50G00LtYWxpJK');
-
-						  var checkoutButton = document.getElementById('checkout-button-sku_FoElzUnsErtmIB');
-						  checkoutButton.addEventListener('click', function () {
-						    // When the customer clicks on the button, redirect
-						    // them to Checkout.
-						    stripe.redirectToCheckout({
-						      items: [{sku: 'sku_FoElzUnsErtmIB', quantity: 1}],
-
-						      // Do not rely on the redirect to the successUrl for fulfilling
-						      // purchases, customers may not always reach the success_url after
-						      // a successful payment.
-						      // Instead use one of the strategies described in
-						      // https://stripe.com/docs/payments/checkout/fulfillment
-						      successUrl: 'https://footballfortunes.co.uk/ffsuccess.html',
-						      cancelUrl: 'https://footballfortunes.co.uk/ffcanceled.html',
-						    })
-						    .then(function (result) {
-						      if (result.error) {
-						        // If `redirectToCheckout` fails due to a browser or network
-						        // error, display the localized error message to your customer.
-						        var displayError = document.getElementById('error-message');
-						        displayError.textContent = result.error.message;
-						      }
-						    });
-						  });
-						</script> -->
-
-						<!-- Stripe Football Fortunes Buy Button Ends
 					<div class="clearfix"></div>
 				</br>
 					<!-- <h2 align="center"><b>How To Play Football Fortunes 2019</b></h2> -->
