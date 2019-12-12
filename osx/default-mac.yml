@@ -1,0 +1,12 @@
+version: 1.0.0
+files:
+  - url: football_fortunes-1.0.0-mac.zip
+    sha512: Gzc2TEp39u+KIDtzFgfcYT5AIZGTtdxtchRE8ybNM+dMRTVUNzPOFZtO6/bfcNmrqQbeL9cYtwCSw95fJtaByA==
+    size: 85925279
+    blockMapSize: 89713
+  - url: football_fortunes-1.0.0.dmg
+    sha512: zTxcLzEuc2F2Xsw3hn7WtyU//hrxRgll/UIP2Ua0hN1UYNfjA1n0k48P5CUMFJyU2RCILxZBQVcvz5OdduBSUQ==
+    size: 88029442
+path: football_fortunes-1.0.0-mac.zip
+sha512: Gzc2TEp39u+KIDtzFgfcYT5AIZGTtdxtchRE8ybNM+dMRTVUNzPOFZtO6/bfcNmrqQbeL9cYtwCSw95fJtaByA==
+releaseDate: '2019-12-12T21:04:30.040Z'
