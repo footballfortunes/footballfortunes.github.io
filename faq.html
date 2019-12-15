@@ -12,12 +12,6 @@
 <!-- //custom-theme -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/JiSlider.css" rel="stylesheet">
-<!-- light-box -->
-<link rel="stylesheet" href="css/lightbox.css">
-<!-- //light-box -->
-
-<!-- Owl-carousel-CSS --><link href="css/owl.carousel.css" rel="stylesheet">
-
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- font-awesome-icons -->
 <link href="css/font-awesome.css" rel="stylesheet">
@@ -44,12 +38,6 @@
 /></noscript>
 <!-- End Facebook Pixel Code -->
 
-<!-- Freshchat Code -->
-
-<script src="https://wchat.freshchat.com/js/widget.js"></script>
-
-<!-- Freshchat Code Ends -->
-
 <!-- Mailchimp Google Retargeting Code -->
 
 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/0b2f75bf097a5d47ae07b225c/431fd377d1c13f30e1d5617c3.js");</script>
@@ -59,77 +47,90 @@
 </head>
 
 <body>
+
+<!-- Facebook Messenger On Website Code -->
+
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v3.3'
+    });
+  };
+
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="857596470966390"
+  theme_color="#fa3c4c"
+  logged_in_greeting="Welcome to Football Fortunes. How can we help?"
+  logged_out_greeting="Welcome to Football Fortunes. How can we help?">
+</div>
+
+<!-- Facebook Messenger Code Ends -->
+
 <!-- banner -->
 <div class="main_section_agile">
-
-		<div class="agileits_w3layouts_banner_nav">
-			<nav class="navbar navbar-default">
-				<div class="navbar-header navbar-left">
-					<img src="images/football-fortunes-logo.png" alt="Football Fortunes 2019" class="img-responsive">
-
-				</div>
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-					<nav class="menu--iris">
-						<ul class="nav navbar-nav menu__list">
-							<li class="menu__item menu__item--current"><a href="index.html">Home</a></li>
-							<li class="menu__item"><a href="#about">About the Game</a></li>
-							<li class="menu__item"><a href="#team">Blog</a></li>
-								<li class="menu__item"><a href="#gallery">Player Votes</a></li>
-							<li class="menu__item"><a href="#contact">Contact Us</a></li>
-						</ul>
-
-					</nav>
-				</div>
-			</nav>
-		</div>
-</div>
-<!-- slider banner -->
-	<div class="banner-silder" id="home">
-		<div id="JiSlider" class="jislider">
+	<div id="newnav">
+		<a href="https://footballfortunes.co.uk"> <img border="0" alt="back to Football FOrtunes home" src="images/football-fortunes-logo.png" class="img-responsive"></a>
+		<br/>
+		<nav>
 			<ul>
-				<li>
-					<div class="w3layouts-banner-top">
-
-							<div class="container">
-								<div class="agileits-banner-info">
-									<!-- <h3>Football Fortunes 2019</h3>
-									 <p>Official Brian Cloughs Football Fortunes Remake</p> -->
-								</div>
-							</div>
-						</div>
-				</li>
-				<li>
-						<div class="w3layouts-banner-top w3layouts-banner-top1">
-						<div class="container">
-								<div class="agileits-banner-info">
-									<!-- <h3>New rules for the new era</h3>
-									 <p>Transfer windows, formations, youth players and lots more</p> -->
-								</div>
-							</div>
-						</div>
-				</li>
-				<li>
-						<div class="w3layouts-banner-top w3layouts-banner-top2">
-							<div class="container">
-								<div class="agileits-banner-info">
-									<!-- <h3>New Players Rated By You!</h3>
-									 <p>Vote for player ratings on Facebook</p> -->
-								</div>
-
-							</div>
-						</div>
-					</li>
-
+				<li><a href="#team">Development Diary</a></li>
+				<li><a href="https://www.youtube.com/channel/UCYpyvj-ZOxRpDyNm4ehzTpA">YouTube Channel</a></li>
+				<li><a href="https://footballfortunes.co.uk/Football%20Fortunes%202019%20Rules.pdf">Game Rules</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+				<li><a href="#contact">Contact Us</a></li>
 			</ul>
-		</div>
+		</nav>
+	</div>
+
+</div>
+
+<div class="centreboxfaq"><img src="images/faq-box.jpg" alt="Football Fortunes Frequently Asked Questions"></div>
 	<!-- About the Game Section-->
 <div class="w3-agileits-about" id="about">
 		<div class="container">
 				<div class="w3-agileits-about-top">
-						<h3>Unique, Iconic, Reborn!</h3>
-						<p><b>Football Fortunes 2019</b> is the official remake of the 8-bit football management classic <b>Brian Clough's Football Fortunes</b>, the football management sim <b>you play with your friends</b></p>
+						<h3><b>Football Fortunes Frequently Asked Questions</b></h3>
+						<p>Need to know where to get the Football Fortunes app? Wondering what the latest rules of the game are? Read on for answers to the most common questions about Football Fortunes</b></p>
+							</br>
+						<h2 align ="center"><b>Where can I get the Football Fortunes app?</h2></p>
+						<p align ="left">The Football Fortunes app is currently available on four platforms. Get the <a href="https://play.google.com/store/apps/details?id=com.footballfortunes.app">Android app for tablets here</a>, the <a href="https://s3-eu-west-1.amazonaws.com/releases.footballfortunes.co.uk/win/football_fortunes+Setup+1.0.2.exe">Windows / PC app can be found here</a> and the <a href="https://s3-eu-west-1.amazonaws.com/releases.footballfortunes.co.uk/osx/football_fortunes-1.0.3.dmg">Mac app can be found here</a>. As stands we are still waiting on approval from Apple for our iPad app :( When it's available we'll list it here</p>
 					<div class="clearfix"></div>
+				<br/>
+
+					<h2 align ="center"><b>Where can I find the latest rules for Football Fortunes?</h2></p>
+					<p align ="left">The latest rules for the game are available in the How to Play section of the Football Fortunes app. <a href="https://footballfortunes.co.uk/Football%20Fortunes%202019%20Rules.pdf">A printable PDF of the Football Fortunes rules are also available here.</a></p>
+				<div class="clearfix"></div>
+					<br/>
+
+					<h2 align ="center"><b>What's in the Football Fortunes box?</h2></p>
+					<p align ="left">We've an unboxing video coming soon. In the box there's the game board, 176 Premier League player cards and a pack of classic 1980s player cards from the Brian Clough's Football Fortunes game. There's also youth player cards, coach cards and scout cards for use in builsing your squad. </p>
+					<p>Lastly there's a bunch of tokens for cup winning, moving on the board, upgrading players and coaches and for use on the deluxe player mats to help you remember your team ratings.</p>
+				<div class="clearfix"></div>
+					<br/>
+
+				<h2 align ="center"><b>What was Brian Clough's Football Fortunes?</h2></p>
+					<p>Brian Clough's Football Fortunes was published by CDS Software in 1987. Watch our video below for an unboxing and walk through of the iconic original game.</p>
+				<p align ="left">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/FI8yCY-O9LU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</p>
+			<div class="clearfix"></div>
+				<br/>
+				<h2 align ="center"><b>How can I keep up to date on Football Fortunes news?</h2></p>
+				<p align ="left">To keep in touch, <a href="https://www.facebook.com/footballfortunes">like us on Facebook</a>, <a href="https://www.facebook.com/groups/16913072448/">join our Brian Clough's Football Fortunes group on Facebook</a>, <a href="https://mailchi.mp/e19a8f140aca/footballfortunes">join our mailing list</a> or drop us an email at footballfortunes@gmail.com</p>
+			<div class="clearfix"></div>
+				<br/>
 				</div>
 				<div class="col-md-4 col-sm-4 w3-agileits-about-grid">
 					<i class="fa fa-font-awesome" aria-hidden="true"></i>
@@ -680,7 +681,7 @@
 <!-- //agile_testimonials -->
 <!-- /live match -->
 </br>
-<div class="banner-info">
+<!-- <div class="banner-info">
 	<div class="dott">
     <div class="wrapper agileinfo">
 	<h3>BACK US ON KICKSTARTER IN</h3>
@@ -705,14 +706,14 @@
             </div>
         </div>
 			<div>
-				<!--<h3><a href="">Find Out More</a></h3>-->
+				<h3><a href="https://www.kickstarter.com/projects/footballfortunes/667584823/build?ref=857800">Find Out More</a></h3>
 			</div>
 
 
     </div>
 </div>
 </div>
-</div>
+</div> -->
 
 <!-- //live match -->
 <!-- /contact bottom -->
@@ -803,8 +804,8 @@
 					<a href="#about">About The Game</a>
 					<a href="#gallery">Player Votes</a>
 					<a href="#team">Blog</a>
-					<!-- <a href="#testimonials">Our Fans Say</a>-->
-					<a href="/faq.html">FAQ</a>
+					<!-- <a href="#testimonials">Our Fans Say</a> -->
+					<!-- <a href="/faq.html">FAQ</a> -->
 					<a href="#contact">Contact Us</a>
 				</div>
 			</div>
@@ -920,37 +921,6 @@ pageTracker._trackPageview();
 </script>
 
 <!-- Google Analytics Code Ends -->
-
-<!-- Freshchat Code -->
-
-<script>
-  window.fcWidget.init({
-    token: "e727233f-386a-422a-b5bf-50e62c6532cf",
-    host: "https://wchat.freshchat.com"
-  });
-</script>
-
-<!-- Freshchat Code Ends -->
-
-<script>
-
-  // Identify Freshchat Users
-
-  // To set unique user id in your system when it is available
-  window.fcWidget.setExternalId("john.doe1987");
-
-  // To set user name
-  window.fcWidget.user.setFirstName("John");
-
-  // To set user email
-  window.fcWidget.user.setEmail("john.doe@gmail.com");
-
-  // To set user properties
-  window.fcWidget.user.setProperties({
-    plan: "Estate",                 // meta property 1
-    status: "Active"                // meta property 2
-  });
-</script>
 
 </body>
 </html>
