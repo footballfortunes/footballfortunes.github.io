@@ -1,5 +1,5 @@
 html, body{font-size:100%;background:#ffffff;margin:0;}
-p,ul li,ol li{margin:0;font-size:14px;letter-spacing:1px;}
+p,ul li,ol {font-family:'Raleway', margin:0;font-size:14px;letter-spacing:1px;}
 p{font-family:'Open Sans', sans-serif;}
 h1,h2,h3,h4,h5,h6{font-family:'Raleway', sans-serif;margin:0;}
 ul,label{margin:0;padding:0;}
@@ -428,12 +428,62 @@ p.para-w3-agile{font-size:14.4px;line-height:27px;}
 div.feedburnerFeedBlock ul{margin-left:0;padding-left:0;list-style-type:none}
 div.feedburnerFeedBlock ul li span.headline{font-weight:bold;display:block;margin:12px 0 0 0;}
 
+#newnav
+
+{
+
+  margin: auto;
+  width: 100%;
+  /* border: 3px solid green; */
+  text-align: center;
+
+}
+
+#newnav ul
+
+{
+
+  list-style-type: none;
+  display:table; margin:0 auto;
+
+
+}
+
 #newnav ul li
 
 {
-text-align: right;
-float: right;
-text-decoration: none;
-margin-right: 20px;
-margin-top: 40px;
+
+margin-bottom: 15px;
+
+
+}
+
+#newnav ul li a
+
+{
+
+font-family:'Raleway', margin:0;font-size:20pts;letter-spacing:1px;
+color: black;
+
+
+}
+
+#newnav img
+
+{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.centreboxfaq img
+
+{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
